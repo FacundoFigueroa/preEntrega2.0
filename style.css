@@ -12,6 +12,7 @@ header{
     padding: 20px;
 }
 
+
 .logo{
     float: left;
     color: #fff;
@@ -20,21 +21,21 @@ header{
 .logo span{
     color: #222;
 }
-.nav{
-    float: right;
+.navbar{
+    height: 80px;
+    background-color: blueviolet;
+    box-shadow: 0 0 5px #000 !important;
 }
-.nav ul{
-    list-style: none;
+.nav-link{
+    color: white !important;
 }
-.nav ul li{
-    display: inline-block;
-}
-.nav a{
-    text-decoration: none;
-    color: #fff;
-}
-.nav a:hover{
-    color: #222;
+@media only screen and (min-width:0) and (max-width:576px){
+    .navbar-collapse{
+        background-color: blueviolet;
+        display: flex;
+        justify-content: center !important;
+
+    }
 }
 main{
     height: calc(100vh - 80px);
@@ -42,6 +43,13 @@ main{
     background-image: url(../img/snack-2635035_1280.jpg);
     background-size: cover;
 
+}
+.sele1{
+    color: #fff;
+    width: 70%;
+    padding: 30px;
+    float: right;
+    margin: 40px;
 }
 .sele{
     color: #fff;
